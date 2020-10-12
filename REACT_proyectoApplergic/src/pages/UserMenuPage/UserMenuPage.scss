@@ -1,0 +1,137 @@
+.c-header {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  &__icon {
+    margin-right: 20px;
+    font-size: 4px;
+  }
+
+  &__menu-hamburguer {
+    font-size: 4px;
+    color:rgb(38,199,220);
+    letter-spacing: 0.24pt;
+    font-weight: lighter;
+    margin-left: 20px;
+  }
+
+  &__showMenu {
+    & ul {
+      position: absolute;
+      width: 70%;
+      height: auto;
+      background-color: white;
+      list-style: none;
+      overflow: scroll;
+      left: 0;
+    }
+
+    & li:hover {
+      background-color: lightblue;
+    }
+  }
+}
+
+.site-nav-open {
+  height: auto;
+}
+
+.c-logo {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+
+
+  &__backGroundImg{
+    width: 40%;
+    object-fit: cover;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.c-userMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  &__p {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: rgb(87, 86, 86);
+    padding-bottom: 8px;
+  }
+}
+
+.b-main-button__blue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 50px;
+  width: 85%;
+  border-radius: 10px;
+  color: white;
+  font-family: Montserrat;
+  border: none;
+  background-color: #28bfd3;
+  cursor: pointer;
+}
+
+.b-main-button__gray {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 50px;
+  width: 85%;
+  border-radius: 10px;
+  color: white;
+  font-family: Montserrat;
+  border: none;
+  background-color: rgb(131, 117, 117);
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.b-main-button__red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 50px;
+  width: 85%;
+  border-radius: 10px;
+  color: white;
+  font-family: Montserrat;
+  border: none;
+  background-color: rgb(248, 73, 113);
+  opacity: 70%;
+  cursor: pointer;
+}
+.menu-bottons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  & li {
+    list-style: none;
+  }
+
+  &__icon {
+    font-size: 30px;
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+.c-userprofile{
+  text-align: center;
+  padding-top: 50px;
+  color: #26c7dc;
+
+  &__datos{
+    font-family: Montserrat-regular;
+    color: #767676;
+    font-size: 8pt;
+  }
+  &__img{
+    position: relative;
+    top: 40px;
+    right: 35px;
+  }
+  &__label {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #26c7dc;
+    font-size: 11pt;
+  }
+  &__title{
+   font-size: 18pt;
+  }
+}
+.top-links__userprofile {
+  display: inline-flex;
+  position: relative;
+  margin-left: 25px;
+  bottom: 220px;
+
+  &__volver {
+    font-size: 10pt;
+    color: rgb(38, 199, 220);
+    letter-spacing: 0.24pt;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-top: 18px;
+  }
+}

@@ -1,0 +1,58 @@
+.rate-page-container {
+  text-align: center;
+  padding-top: 50pt;
+  margin: 40pt;
+  &__img {
+    width: 150pt;
+    height: 150pt;
+    position: relative;
+    bottom: 40px;
+  }
+  &__text {
+    color: rgb(7, 15, 21);
+    font-size: 12pt;
+  }
+
+  &__subtitle {
+    color: rgb(7, 15, 21);
+    font-size: 12pt;
+    padding: 0 1rem;
+  }
+  &__suggestions {
+    color: rgb(38, 199, 220);
+    font-size: 10pt;
+    letter-spacing: 0.32pt;
+    position: relative;
+    bottom: 35px;
+  }
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  font-size: 33px;
+  margin-bottom: 10rem;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: rgb(248, 180, 73);
+}
+.top-links-ratepage{
+  position: relative;
+  right: 120px;
+  bottom: 70px;
+  &__volver {
+    font-size: 8pt;
+    color: rgb(38, 199, 220);
+    letter-spacing: 0.24pt;
+    font-weight: lighter;
+    font-weight: lighter;
+  }
+}

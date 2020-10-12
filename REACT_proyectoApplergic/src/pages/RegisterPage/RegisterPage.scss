@@ -1,0 +1,92 @@
+.c-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  & h2{
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+}
+
+.c-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &__photo {
+    width: 38%;
+    /*height: 80px;*/
+    margin-bottom: 5px;
+  }
+}
+
+label{
+  font-size: 14px;
+  letter-spacing: 0.24px;
+  color: rgb(38, 199, 220);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.c-registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-top: 5px;
+  margin-left: 25px;
+
+  &__imputPassword {
+    margin-bottom: 15px;
+  }
+
+  &__inputEmail {
+    margin-bottom: 15px;
+  }
+
+  &__inputName{
+    border:0;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: rgb(196, 196, 196);
+    font-family: Montserrat;
+  }
+
+  &__inputMovile{
+    border:0;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 15px;
+    color: rgb(196, 196, 196);
+    font-family: Montserrat;
+  }
+}
+.b-main-button__blue {
+  margin-top: 30px;
+}
+.top-links-register{
+  display: inline-flex;
+  position: relative;
+  margin-left: 25px;
+  top: 20px;
+
+  &__volver{
+    font-size: 10pt;
+    color:rgb(38,199,220);
+    letter-spacing: 0.24pt;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-top: 18px;
+  }
+  &__counter{
+    margin-left: 80px;
+    margin-top: 38px;
+  }
+}

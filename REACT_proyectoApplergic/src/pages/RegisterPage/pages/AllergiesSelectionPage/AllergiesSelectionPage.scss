@@ -1,0 +1,78 @@
+* {
+  font-family: "Montserrat";
+}
+
+.c-allergies-container {
+  justify-content: center;
+  text-align: center;
+  margin: 20pt;
+
+  &__title {
+    padding-bottom: 20pt;
+    font-size: 15pt;
+  }
+  &__subtitle {
+    font-size: 12pt;
+    font-family: Montserrat-regular;
+    padding-bottom: 15pt;
+    color: rgb(89,95,101)
+  }
+
+  &__alphabet-grid {
+    border: 1px solid lightgrey;
+  }
+
+  &__save-btn {
+    margin: 5rem 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__display {
+    margin-left: 1.5rem;
+    &-letters {
+      .btn {
+        margin-right: 400px;
+        font-size: 2rem;
+        width: 4rem;
+        height: 3.7rem;
+      }
+      &-elements {
+        display: flex;
+        flex-flow: wrap;
+      }
+    }
+  }
+}
+
+.continue-btn {
+  margin: 5rem 0;
+}
+
+.b-allergy-letter {
+  margin: 10px;
+}
+
+.acceso-rapido {
+  font-size: 10px;
+  font-family: Montserrat-regular;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-links-allergies{
+  display: flex;
+  flex-direction: row;
+  &__volver{
+    padding-right: 75px;
+    font-size: 10pt;
+    color:rgb(38,199,220);
+    letter-spacing: 0.24pt;
+    font-weight: lighter;
+  }
+  &__counter{
+    text-align: center;
+  }
+}

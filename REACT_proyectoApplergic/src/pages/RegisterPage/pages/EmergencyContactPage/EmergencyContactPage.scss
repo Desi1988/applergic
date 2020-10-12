@@ -1,0 +1,34 @@
+.top-links-emergency {
+  display: flex;
+  position: relative;
+  margin-left: 25px;
+  top: 10px;
+
+  &__volver{
+    font-size: 10pt;
+    color:rgb(38,199,220);
+    letter-spacing: 0.24pt;
+    font-weight: lighter;
+  }
+  &__counter {
+    margin-left: 80px;
+  }
+}
+
+.c-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__backEmergencies {
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: rgb(38, 199, 220);
+    text-decoration: none;
+    margin-top: 30px;
+
+
+  }
+}

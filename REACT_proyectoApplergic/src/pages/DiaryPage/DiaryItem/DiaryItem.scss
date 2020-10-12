@@ -1,0 +1,79 @@
+.c-diaryItem {
+  width: auto;
+  height: 80px;
+  display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  &__img {
+    width: 80px;
+    height: 80px;
+    margin-left: 0%;
+
+    &-img {
+      width: 75px;
+    }
+  }
+
+  &__info {
+    font-size: 1.1rem;
+    text-align: left;
+    color: rgb(168, 168, 168);
+
+    &-input{
+      width: 75%;
+      border-radius: 5px;
+      border: 1px solid rgb(38,199,220);
+    }
+  }
+
+  &__spans {
+    width: 25px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+
+    &-A {
+      width: 25px;
+
+
+    }
+
+    &-B {
+      margin-top: 80%;
+      width: 25px;
+
+
+    }
+  }
+}
+
+/*.c-diaryitem{
+  align-content: center;
+  justify-content: center;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  &__nombre{
+   width: 80%;
+    padding-bottom: -10px;
+  }
+
+  &__cross{
+    width:20%;
+    border: none;
+    background: none;
+  }
+  &__text{
+    height: 20px;
+    width: 40%;
+    margin-left: -60px;
+  }
+}*/

@@ -1,0 +1,41 @@
+.c-homepage-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 100pt;
+  width: 375pt;
+  height: 812pt;
+}
+
+.c-homepage-container__title {
+  font-size: 30pt;
+  letter-spacing: -0.5pt;
+  margin-left: 85.5pt;
+  margin-right: 85.5pt;
+  margin-bottom: 15pt;
+  font-family: "Montserrat-extrabold";
+  color: #30353b;
+}
+
+.c-homepage-container__subtitle {
+  margin-left: 20.5pt;
+  font-size: 10pt;
+  color: #767676;
+  letter-spacing: -0.22pt;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+
+.c-homepage-container__logo {
+  margin: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  left: -95px;
+  bottom: 130px;
+  width: 520pt;
+  height: 529.2pt;
+}
+/*# sourceMappingURL=HomePage.css.map */

@@ -1,0 +1,50 @@
+.c-allergies-confirmation-container {
+  font-family: "Montserrat";
+  justify-content: center;
+  text-align: center;
+  margin: 20pt;
+
+  .top-links-allergies {
+    display: inline-flex;
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+
+    &__volver{
+      font-size: 10pt;
+      color:rgb(38,199,220);
+      letter-spacing: 0.24pt;
+      font-weight: lighter;
+      text-decoration: none;
+      padding-top: 18px;
+    }
+    &__counter {
+     position: relative;
+      top: 20px;
+
+    }
+  }
+  &__title {
+    padding-bottom: 20pt;
+    font-size: 15pt;
+  }
+
+  &__subtitle {
+    font-size: 12pt;
+    font-family: Montserrat-regular;
+    padding-bottom: 15pt;
+    color: rgb(89,95,101)
+  }
+
+  &__prev-selected {
+    display: flex;
+    flex-flow: wrap;
+    &__no-selection {
+      color: rgb(248, 73, 113);
+    }
+  }
+
+  &__confirmation-btn {
+    margin-top: 5.5rem;
+  }
+}
